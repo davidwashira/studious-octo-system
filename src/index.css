@@ -1,0 +1,14 @@
+/* src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  @apply bg-gray-100 text-gray-900 font-sans;
+}
+
+a {
+  @apply text-blue-500 hover:text-blue-700;
+}

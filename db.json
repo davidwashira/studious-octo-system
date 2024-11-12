@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Samsung 55-inch 4K Ultra HD Smart TV",
+        "price": 499.99,
+        "description": "This 55-inch Samsung Smart TV offers vibrant 4K UHD resolution, an intuitive interface, and access to streaming apps.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/samsung-tv.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 150
+        }
+    },
+    {
+        "id": 2,
+        "title": "Apple AirPods Pro (2nd generation)",
+        "price": 249.99,
+        "description": "Apple's second-generation AirPods Pro with enhanced noise cancellation, immersive sound, and comfortable fit.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/airpods-pro.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 800
+        }
+    },
+    {
+        "id": 3,
+        "title": "Sony PlayStation 5 Console",
+        "price": 499.99,
+        "description": "The Sony PlayStation 5 features ultra-fast load times, an immersive gaming experience, and a large selection of games.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/ps5-console.jpg",
+        "rating": {
+            "rate": 4.9,
+            "count": 1000
+        }
+    },
+    {
+        "id": 4,
+        "title": "Dell XPS 13 Laptop",
+        "price": 999.99,
+        "description": "The Dell XPS 13 laptop features a stunning 13-inch display, powerful performance, and sleek design.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/dell-xps13.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 450
+        }
+    },
+    {
+        "id": 5,
+        "title": "Samsung Galaxy S23 Smartphone",
+        "price": 799.99,
+        "description": "Samsung Galaxy S23 smartphone with a high-quality display, powerful camera, and long-lasting battery.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/galaxy-s23.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 600
+        }
+    },
+    {
+        "id": 6,
+        "title": "Bose QuietComfort 45 Noise Cancelling Headphones",
+        "price": 329.99,
+        "description": "Bose's QuietComfort 45 headphones deliver exceptional noise cancellation, sound quality, and comfort.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/bose-quietcomfort.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 400
+        }
+    },
+    {
+        "id": 7,
+        "title": "GoPro HERO11 Black",
+        "price": 399.99,
+        "description": "Capture ultra-smooth footage with the GoPro HERO11 Black, featuring 5.3K video, HyperSmooth stabilization, and waterproof capabilities.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/gopro-hero11.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 300
+        }
+    },
+    {
+        "id": 8,
+        "title": "Apple MacBook Pro 16-inch",
+        "price": 2399.99,
+        "description": "The MacBook Pro 16-inch features Apple's M1 Max chip for high performance, long battery life, and brilliant display.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/macbook-pro.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 250
+        }
+    },
+    {
+        "id": 9,
+        "title": "Amazon Echo Dot (5th Gen)",
+        "price": 49.99,
+        "description": "The Amazon Echo Dot (5th Gen) is a compact smart speaker with Alexa voice control and improved sound quality.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/echo-dot.jpg",
+        "rating": {
+            "rate": 4.3,
+            "count": 1500
+        }
+    },
+    {
+        "id": 10,
+        "title": "Microsoft Xbox Series X",
+        "price": 499.99,
+        "description": "The Xbox Series X offers stunning performance, quick load times, and an extensive library of games.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/xbox-series-x.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 1200
+        }
+    }
+]
