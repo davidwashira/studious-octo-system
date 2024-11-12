@@ -15,18 +15,25 @@ const PayPalButton = ({ amount }) => {
         "client-id": "AQJnKGofUdV1yyAdRB9Q7t-C6ismrFQ1rQqesmADh96wi_FBSzi9kNZHPy2VTha4FGN-s0L8RxUQhDSp",
       }}
     >
-      <PayPalButtons
-        createOrder={(data, actions) => {
-          return actions.order.create({
-            purchase_units: [{
-              amount: {
-                value: amount, // use the amount prop from Cart
-              },
-            }],
-          });
-        }}
-        onApprove={handleApprove}
-      />
+      <div className="flex justify-center mt-4">
+        <PayPalButtons
+          createOrder={(data, actions) => {
+            return actions.order.create({
+              purchase_units: [{
+                amount: {
+                  value: amount, // use the amount prop from Cart
+                },
+              }],
+            });
+          }}
+          onApprove={handleApprove}
+          style={{
+            layout: 'vertical',
+            shape: 'rect',
+            color: 'blue',
+          }}
+        />
+      </div>
     </PayPalScriptProvider>
   );
 };
