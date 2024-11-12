@@ -8,6 +8,7 @@ const ProductDetails = () => {
   const [product, setProduct] = useState(null);
   const [newRating, setNewRating] = useState(0);
   const [ratingSubmitted, setRatingSubmitted] = useState(false);
+  const [quantity, setQuantity] = useState(1);  // Add state to store quantity
   const { addToCart } = useContext(CartContext);  // Use addToCart from CartContext
 
   useEffect(() => {
@@ -22,8 +23,10 @@ const ProductDetails = () => {
   };
 
   const handleAddToCart = () => {
-    addToCart(product);
-    alert(`${product.title} has been added to the cart!`);
+    // Add the product with the specified quantity to the cart
+    const productWithQuantity = { ...product, quantity };
+    addToCart(productWithQuantity);
+    alert(`${product.title} (Quantity: ${quantity}) has been added to the cart!`);
   };
 
   if (!product) return <div>Loading...</div>;
@@ -38,6 +41,19 @@ const ProductDetails = () => {
           <p className="text-lg font-semibold text-green-600 mb-4">${product.price}</p>
           <p className="mb-4">Category: <span className="italic">{product.category}</span></p>
           <p className="mb-4">Rating: {product.rating.rate} / 5 ({product.rating.count} reviews)</p>
+
+          {/* Quantity input */}
+          <div className="mb-4">
+            <label htmlFor="quantity" className="font-semibold">Quantity:</label>
+            <input
+              id="quantity"
+              type="number"
+              value={quantity}
+              onChange={(e) => setQuantity(Math.max(1, Number(e.target.value)))}
+              min="1"
+              className="border rounded-md p-2 w-20 mt-2"
+            />
+          </div>
 
           <div className="mt-6">
             <h3 className="font-bold mb-2">Rate this product:</h3>
